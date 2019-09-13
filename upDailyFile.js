@@ -3,7 +3,7 @@ const AWS = require('aws-sdk');
 
 AWS.config.update({ region: "sa-east-1" })
 var S3 = new AWS.S3();
-const BUCKET_ATIVOS = 'historicoativos'
+const BUCKET_ATIVOS = '*************'
 const KEY_TEMP_DIARIO = 'TMP/COTACOES.json'
 
 var newFile = {
